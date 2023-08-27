@@ -15,7 +15,7 @@ full = ["bitmap", "tlsf", "slab", "buddy", "allocator_api"]
 
 bitmap = ["dep:bitmap-allocator"]
 
-simple = []
+simple = ["dep:slab_allocator"]
 tlsf = ["dep:rlsf"]
 slab = ["dep:slab_allocator"]
 buddy = ["dep:buddy_system_allocator"]
