@@ -10,7 +10,7 @@ mod ramfs;
 use std::io::{self, prelude::*};
 use std::fs::{self, File};
 
-// I AM NOT DONE
+
 
 fn create_file(fname: &str, text: &str) -> io::Result<()> {
     println!("Create '{}' and write [{}] ...", fname, text);

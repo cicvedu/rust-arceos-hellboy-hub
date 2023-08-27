@@ -11,7 +11,6 @@ use std::thread;
 static FLAG: AtomicUsize = AtomicUsize::new(0);
 
 
-// I AM NOT DONE
 
 #[cfg_attr(feature = "axstd", no_mangle)]
 fn main() {
